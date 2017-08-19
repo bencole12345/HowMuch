@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:clipChildren="false"
+    tools:context="ben.cole.howmuch.MainActivity"
+    android:id="@+id/mainActivityLayout">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time Calculator"
+        android:id="@+id/timeCalculatorButton"
+        android:onClick="startTimeCalculator"
+        android:singleLine="false"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/all_transactions_text"
+        android:id="@+id/button"
+        android:onClick="onAllTransactions"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_alignTop="@+id/timeCalculatorButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button"
+        android:id="@+id/pieChartControlsFrame">
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current Month Only"
+            android:id="@+id/currentMonthOnlySwitch"
+            android:checked="true"
+            android:layout_alignBottom="@+id/radioGroup"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:id="@+id/radioGroup"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_income_text"
+                android:id="@+id/pieRadioIncome"
+                android:checked="false"
+                android:onClick="onRadioButtonClicked" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_expense_text"
+                android:id="@+id/pieRadioExpense"
+                android:checked="true"
+                android:onClick="onRadioButtonClicked" />
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/pieChartContainer"
+        android:layout_marginTop="32dp"/>
+
+</RelativeLayout>

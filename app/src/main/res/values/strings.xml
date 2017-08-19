@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">How Much?</string>
+    <string name="menu_new">New</string>
+    <string name="all_transactions_text">All Transactions</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_transactions_list_with_action_button">
+        TransactionsListWithActionButtonActivity
+    </string>
+    <string name="name_label_text">Name</string>
+    <string name="name_hint_text">Name</string>
+    <string name="description_label_text">Description</string>
+    <string name="description_hint_text">Description</string>
+    <string name="radio_income_text">Income</string>
+    <string name="radio_expense_text">Expense</string>
+    <string name="menu_save_text">Save</string>
+    <string name="date_hint_text">Date</string>
+    <string name="date_label_text">Date</string>
+    <string name="type_label_text">Type</string>
+    <string name="amount_hint_text">Amount</string>
+    <string name="price_input_default_text">£</string>
+    <string name="how_many_months_output_default_text">Enter a price and press \'calculate\'.</string>
+    <string name="name_hint">Name</string>
+    <string name="hint_colour">Colour</string>
+    <string name="category_name_hint">Name</string>
+    <string name="category_colour_hint">Colour</string>
+    <string name="button_save_text">Save</string>
+    <string name="button_cancel_text">Cancel</string>
+    <string name="new_category_instructions_text">Enter the details for the new category.</string>
+    <string name="select_button_text">Select</string>
+    <string name="category_hint">Select Category…</string>
+    <string name="expense_text">Expense</string>
+    <string name="button_new_text">New</string>
+    <string name="colour_label_text">Colour</string>
+    <string name="label_red">R</string>
+    <string name="label_green">G</string>
+    <string name="label_blue">B</string>
+    <string name="radio_button_current_month">Current Month Only</string>
+    <string name="radio_all_transactions">All Transactions</string>
+    <string name="transaction_timeframe_selector">Select Timeframe</string>
+</resources>
