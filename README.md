@@ -1,6 +1,8 @@
 # HowMuch
 The source code for the How Much app
 
+Get the app [here](https://play.google.com/store/apps/details?id=ben.cole.howmuch&hl=en)!
+
 HowMuch is a money management app that allows the user to manage their finances by tracking the purchases that they make. The app allows the user to filter and browse through their spendings and income, and can use this information to calculate how long the user should expect to have to spend saving up for an expensive item. The goal of the app is to make the user more aware of how much money they are spending and what they are spending it on.
 
 The app was created as part of my Extended Project Qualification (EPQ), for which I received an A* grade.
